@@ -107,7 +107,7 @@ CREATE TABLE IF NOT EXISTS `email` (
 --
 
 INSERT INTO `email` (`email_id`, `email`, `passwordH`) VALUES
-(1, 'simplemg@alwaysdata.net', 'Maxetsam9807!!');
+(1, 'mettretonemail', 'mettretonpassword');
 
 -- --------------------------------------------------------
 
