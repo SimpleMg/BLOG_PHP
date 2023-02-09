@@ -1,0 +1,152 @@
+Dictionnaire de données 
+
+Nom : PRIMARY_KEY id
+Code : PRIMARY_KEY ID
+Type : AUTO_INCREMENT
+Taille : 11,
+Commentaire : 
+
+Nom : username
+Code : USERNAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : passwordH
+Code : PASSWORDH
+Type : VARCHAR
+Taille : 200,
+Commentaire : 
+
+Nom : PRIMARY_KEY category_id
+Code : PRIMARY_KEY CATEGORY_ID
+Type : VARCHAR
+Taille : 11,
+Commentaire : 
+
+Nom : name
+Code : NAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : subject
+Code : SUBJECT
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : email
+Code : EMAIL
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : message
+Code : MESSAGE
+Type : TEXT
+Taille : ,
+Commentaire : 
+
+Nom : status
+Code : STATUS
+Type : INT
+Taille : 11,
+Commentaire : 
+
+Nom : date
+Code : DATE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : PRIMARY_KEY email_id
+Code : PRIMARY_KEY EMAIL_ID
+Type : AUTO_INCREMENT
+Taille : 11,
+Commentaire : 
+
+Nom : copyright
+Code : COPYRIGHT
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : FOREIGN_KEY category_id
+Code : FOREIGN_KEY CATEGORY_ID
+Type : INT
+Taille : 11,
+Commentaire : 
+
+Nom : title
+Code : TITLE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : body
+Code : BODY
+Type : TEXT
+Taille : ,
+Commentaire : 
+
+Nom : author
+Code : AUTHOR
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : tags
+Code : TAGS
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : FOREIGN_KEY user_id
+Code : FOREIGN_KEY USER_ID
+Type : INT
+Taille : 11,
+Commentaire : 
+
+Nom : facebook
+Code : FACEBOOK
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : github
+Code : GITHUB
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : skype
+Code : SKYPE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : linkedin
+Code : LINKEDIN
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : google
+Code : GOOGLE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : logo
+Code : LOGO
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : PRIMARY_KEY user_id
+Code : PRIMARY_KEY USER_ID
+Type : AUTO_INCREMENT
+Taille : 11,
+Commentaire : 
+
