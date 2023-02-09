@@ -28,8 +28,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         echo "Mailer Error: ".$mail->ErrorInfo;
     }
     $mail->isSMTP();
-    $mail->Host = 'smtp-simplemg.alwaysdata.net';
+    $mail->Host = 'mettre ton serveur de mail';
     $mail->SMTPAuth = true;
+    //mettre ton email et mot de passe dans la BDD
     $mail->Username = $value["email"];
     $mail->Password = $value["passwordH"];
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
